@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Happy Birtday !</title>
+    <link rel="stylesheet" href="see.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    <div class="container">
+        <div class="arrow-left">
+            <a href="index.html">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="box-text">
+            <h1>From Your <span class="hearts">&hearts;</span></h1>
+            <p>Happy Birthday Sayang, Maaf ya kado nya nggak sesuai apa yang kamu mau :)<span id="dots">...</span><span id="more">
+                Tapi Aku ingin membuat kado sederhana ini membuat kamu terkesan, semoga kamu 
+            panjang Umur selalu, Selalu peka terutama wkwkwkwk, Makin Solehah jangan jadi solehot yaa
+            dan 1 pesan yang penting, tetep setia kamu dalam menjalani hubungan ini , but i try somenthing best for you, Love You Sayang <span class="hearts">&hearts;</span> </span></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>     
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper ">
+      <!-- Slides -->
+      <div class="swiper-slide">
+          <img src="1.jpg">
+      </div>
+      <div class="swiper-slide">
+          <img src="2.jpg">
+      </div>
+      <div class="swiper-slide">
+          <img src="foto 1.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img src="halo.jpg">
+    </div>
+    </div>
+  </div>
+
+  <div class="text-guider">
+      <h4>Geser Gambarnya >></h4>
+  </div>
+<br>
+<br>
+
+
+  <script src="popup.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/c83c05f22c.js" crossorigin="anonymous"></script>
+
+  <script>
+      
+    const swiper = new Swiper('.swiper', {
+// Optional parameters
+
+// If we need pagination
+pagination: {
+el: '.swiper-pagination',
+dynamicBullets: true,
+       
+},
+
+// Navigation arrows
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+
+// And if we need scrollbar
+scrollbar: {
+el: '.swiper-scrollbar',
+},
+});
+</script>
+  
+</body>
+</html>
